@@ -1,0 +1,121 @@
+body{
+    background-image: url('\pozadina.jpg');
+    background-image: image-set();
+    width: 100%;
+    height: 100%;
+    background-color:rgb(86, 133, 134);
+    display: flex;
+    flex: 1  auto;
+    flex-direction: row;
+    
+}
+
+.levaStrana{
+
+    flex: 2 1 auto;
+    background-color: rgba(95, 158, 160, 0.548) ;
+    justify-content: space-evenly;
+}
+.desnaStrana{
+    flex: 1 1 auto;
+    background-color:rgb(192, 180, 180);
+    border: 1px solid black;
+    justify-content: space-evenly;
+}
+
+.opisBox{
+    
+
+    border: 1px solid black;
+    background-color: rgb(124, 192, 196);
+    
+    min-width: 500px;
+}
+
+table,tr,th,td{
+    flex-grow: 1;
+    max-width: 500px;
+    border: 1px solid black;
+    background-color: rgb(124, 192, 196);
+}
+table{
+    border-collapse: collapse ;
+}
+
+select{
+    background-color: rgba(86, 133, 134, 0.89) ;
+}
+
+.bigSelect{
+    min-width: 300px;
+    min-height: 50px;
+
+}
+
+.gornjiDeo{
+    display: flex;    
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.forma{
+    display: flex;
+    flex-direction: row;
+}
+.deoZaLabele,.deoZaPolja{
+    display: flex;
+    flex-direction: column;
+}
+.inactive{
+    background-color:rgba(69, 75, 55, 0.856);
+}
+.organizacije{
+    background-color: rgba(196, 226, 124, 0.719);
+    
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.cb{
+    background-color: rgba(0, 0, 255, 0.842);
+}
+input,select{
+    background-color: rgba(255, 255, 255, 0.651);
+}
+.stat{
+
+    visibility: hidden;
+    flex-grow: 1;
+    
+    max-width: 250px;
+    max-height: 250px;
+    background-color: rgb(240, 255, 255);
+}
+.donjiDeo{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    justify-content: space-between;
+
+}
+.kutijaZaStats{
+
+    display: flex;
+    flex-direction: row;
+
+}
+.srednjiDeo{
+    margin-left: 30px;
+    justify-content: space-evenly;
+    display: flex;
+    max-width: 60%;
+    flex-direction: column;
+
+}
+.seOrg{
+    margin-left: 50px;
+}
+h3{
+    margin-left: 50px;
+}
